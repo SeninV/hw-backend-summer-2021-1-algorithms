@@ -21,5 +21,3 @@ def even_odd(arr: list[int]) -> float:
     even_odd([1, 2, 3, 4, 5]) == 0.8889
     """
     return even_odd
-
-print(even_odd([0, 0, 0]))
