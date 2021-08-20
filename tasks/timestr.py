@@ -1,7 +1,6 @@
 __all__ = (
     'seconds_to_str',
 )
-import time
 
 def seconds_to_str(seconds: int) -> str:
     days, seconds = divmod(seconds, 24*60*60)
