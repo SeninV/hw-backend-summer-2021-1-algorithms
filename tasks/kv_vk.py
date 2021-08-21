@@ -34,7 +34,7 @@ def flip_kv_vk_safe(d: dict[KT, KV]) -> dict[KV, list[KT]]:
 
     new_dict = {k: [j for j, _ in list(v)] for k, v in itertools.groupby(d.items(), lambda x: x[1])}
 
-    # for i in
+
     """
     Функция должна возвращать словарь, в котором в качестве ключей - значения
     переданного словаря, а в качестве значений - массив ключей конфликтующих

@@ -58,7 +58,6 @@ class Graph:
             sosed = stack.popleft()
             for neighbour in sosed.outbound:
                 if neighbour not in set(visited):
-                    print(visited)
                     visited.append(neighbour)
                     stack.append(neighbour)
 
