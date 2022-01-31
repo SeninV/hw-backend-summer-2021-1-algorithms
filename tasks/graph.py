@@ -51,7 +51,7 @@ class Graph:
 
     def bfs(self) -> list[Node]:
         a = self._root
-        visited = []
+        visited =  []
         visited.append(a)
         stack = deque([a])
         while stack:
